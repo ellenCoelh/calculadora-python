@@ -16,3 +16,4 @@ if __name__ == "__main__":
     print(f"2 + 3 = {soma(2, 3)}") 
     print(f"5.5 + 4.5 = {soma(5.5, 4.5)}") 
     print(f'6 + 2 = {soma(6,2)}')
+    print(f'8 + 2 = {soma(8,2)}')
