@@ -34,22 +34,30 @@ def subtracao(a, b):
     """
     return a - b
 
-def raiz_quadada (a):
-    """
-    Calcula a raiz quadrada de um número.
 
-    Parâmetros:
-    a (int/float): Número
-    
-    Retorna:
-    int/float: Resultado da raiz quadrada
-    """   
-    return math.sqrt(a)
 
 if __name__ == "__main__":
     print("Teste da função subtracao:")
     print(f"5 - 3 = {subtracao(5, 3)}")
     print(f"10.5 - 4.5 = {subtracao(10.5, 4.5)}")
     print(f'8 - 2 = {subtracao(8,2)}')
+    
+
+    def raiz_quadada (a):
+        """
+        Calcula a raiz quadrada de um número.
+
+        Parâmetros:
+        a (int/float): Número
+        
+        Retorna:
+        int/float: Resultado da raiz quadrada
+        """   
+        return math.sqrt(a)
+    
+if __name__ == "__main__":
+    print("Teste da função subtracao:")
     print(f'A Raiz quadrade de {4} é igual a {raiz_quadada(4)}')
+    print(f'A Raiz quadrade de {16} é igual a {raiz_quadada(16)}')
+    print(f'A Raiz quadrade de {20} é igual a {raiz_quadada(20)}')
 
